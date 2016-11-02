@@ -16,7 +16,13 @@ function testenVonA(zahl) {
   var x = 4;
   var y = 5;
 
+  var y = 9;
+
   summe = x + y;
 
-  return summe;
+  if(summe === y) {
+    return summe;
+  } else {
+    return 0;
+  }
 }
