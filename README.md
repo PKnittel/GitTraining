@@ -13,6 +13,14 @@ Gliederung:
 8. git push und Optionen
 9. git pull und Optionen
 
+##0.Clone des Repository
+
+Lokale Kopie des Repositories ziehen mit:
+
+```
+git clone https://github.com/PKnittel/GitTraining.git
+```
+
 
 ##1.Änderungen commiten
 
@@ -121,19 +129,31 @@ erstellt eine Remotekopie des Branches (wenn man sich im Branch befindet)
 
 ##5. Rebase Fallbeispiel
 
+Der Rebase ist ein Rebase onto. Es werden also alle Änderungen im eigenen Branch auf den Fremdbranch angewendet. Dazu muss man sich im eigenen Branch befinden.
+
 ```
-  git rebase
+  git checkout [eigenbranch]
 ```
 
+Der Rebase geschieht mit dem folgenden Befehl:
 
+```
+  git rebase [fremdbranch]
+```
+
+Nun müssen Konflikte pro Commit einzeln aufglöst werden.
 
 ##6. Merge Fallbeispiel
 
+Bei einem Merge werden alle Änderungen innerhalb eines Commits bereinigt. Dieser Commit wird auf den eigenen Branch angewendet. 
+
 ```
-  git merge
+  git checkout [eigenbranch]
 ```
 
-
+```
+  git merge [fremdbranch]
+```
 
 ##7. Fehler finden und beheben
 Git-Tasks Skript
@@ -244,4 +264,4 @@ zeigt die config
 ```
   git config --global pull.rebase true
 ```
-Setzt pull.rebase auf trueue
+Setzt pull.rebase auf trueueue
