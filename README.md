@@ -68,7 +68,8 @@ oder
 
 ```
   git reset --hard 
-```um Änderungen zu verwerfen
+```
+um Änderungen zu verwerfen
 
 
 Möchte man zu einem bestimmten commit zurückgehen kann man auch
@@ -189,7 +190,8 @@ Starten:
 
 ```
   git push 
-```(mit default config)
+```
+(mit default config)
 Ersetzt die remote History durch die eigene, wenn es sich um einen Fast-Forward handelt.
 
 ```
