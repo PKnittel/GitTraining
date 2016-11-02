@@ -1,0 +1,15 @@
+# Dies ist eine *.txt Datei zum testen.
+
+
+import 'irgendwas' from '../sonst/wo';
+
+function getBees(name, count){
+  var bees = [];
+  for (var i=0, i<count, i++) {
+    bees.append({
+      name: name,
+    })
+  }
+
+  return bees;
+}
