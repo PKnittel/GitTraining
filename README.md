@@ -115,7 +115,7 @@ Erstellt einen neuen Branch auf dem aktuellen Commit
 Bringt das working-dir auf den angegebenen Branchzustand
 
 ```
-  git checkout -d [branchname]
+  git checkout -b [branchname]
 ```
 
 Wechselt zum angegebenen Branch und erstellt ihn falls er noch nicht existiert
