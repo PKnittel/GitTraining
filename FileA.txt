@@ -16,7 +16,7 @@ function testenVonA(zahl) {
   var x = 5;
   var y = 3;
 
-  var y = 9;
+  var y = 8;
 
   summe = x + y;
 
