@@ -75,7 +75,7 @@ Anschließend neu commiten
 oder
 
 ```
-  git reset --hard 
+  git reset --hard
 ```
 um Änderungen zu verwerfen
 
@@ -145,7 +145,7 @@ Nun müssen Konflikte pro Commit einzeln aufglöst werden.
 
 ##6. Merge Fallbeispiel
 
-Bei einem Merge werden alle Änderungen innerhalb eines Commits bereinigt. Dieser Commit wird auf den eigenen Branch angewendet. 
+Bei einem Merge werden alle Änderungen innerhalb eines Commits bereinigt. Dieser Commit wird auf den eigenen Branch angewendet.
 
 ```
   git checkout [eigenbranch]
@@ -178,9 +178,9 @@ Das Reflog
 Zeigt eine nummerierte Liste aller lokalen git Operationen an.
 
 
-Mit 
+Mit
 ```
-  git reset HEAD@{[Zustandsnummer]} 
+  git reset HEAD@{[Zustandsnummer]}
 ```
 kehrte man zum gewählten Zustand zurück.
 
@@ -209,13 +209,13 @@ Starten:
 ##8. git push und Optionen
 
 ```
-  git push 
+  git push
 ```
 (mit default config)
 Ersetzt die remote History durch die eigene, wenn es sich um einen Fast-Forward handelt.
 
 ```
-  git push origin [branchname] 
+  git push origin [branchname]
 ```
 (default für git push)
 
@@ -225,7 +225,7 @@ Ersetzt die remote History durch die eigene, wenn es sich um einen Fast-Forward 
 Überschreibt die remote History in jedem Fall
 
 ```
-  git push origin [branchname] --force-with-lease 
+  git push origin [branchname] --force-with-lease
 ```
 überschreibt die remote History nur wenn die sich seit dem letzten pull nicht geändert hat.
 
@@ -264,4 +264,4 @@ zeigt die config
 ```
   git config --global pull.rebase true
 ```
-Setzt pull.rebase auf trueueue
+Setzt pull.rebase auf true
