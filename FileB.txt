@@ -1,4 +1,5 @@
 # Dies ist eine *.txt Datei zum testen.
+# Zum besseren Verstaendnis wird hier eine weitere Kommentarzeile eingefügt.
 
 
 import 'irgendwas' from '../sonst/wo';
