@@ -14,7 +14,7 @@ no sea takimata sanctus est Lorem ipsum dolor sit amet.
 function testenVonA(zahl) {
   var summe = 0;
   var x = 5;
-  var y = 5;
+  var y = 3;
 
   var y = 9;
 
